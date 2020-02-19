@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5535109471138F3EE09BB3DE /* libPods-TKHandle_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1960E64AF0698515301157F /* libPods-TKHandle_Example.a */; };
+		39EAFDDACF0D66CB15282E07 /* Pods_TKHandle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E4A22E58800BC08981B7AF /* Pods_TKHandle_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		FA4B879B4EFCADAF2F232BEA /* libPods-TKHandle_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA73327D36EA4C6471BD48 /* libPods-TKHandle_Tests.a */; };
+		D21E45901E255C595EE57819 /* Pods_TKHandle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7262D4B868298C2504256553 /* Pods_TKHandle_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B3B2AFBF3CF7DA86EF7483E /* Pods-TKHandle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHandle_Example.release.xcconfig"; path = "Target Support Files/Pods-TKHandle_Example/Pods-TKHandle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7262D4B868298C2504256553 /* Pods_TKHandle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKHandle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E4A22E58800BC08981B7AF /* Pods_TKHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKHandle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61960D8202ACB3E08B5C195 /* Pods-TKHandle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHandle_Tests.release.xcconfig"; path = "Target Support Files/Pods-TKHandle_Tests/Pods-TKHandle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B1960E64AF0698515301157F /* libPods-TKHandle_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKHandle_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7EA73327D36EA4C6471BD48 /* libPods-TKHandle_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKHandle_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD0A0111B76B0BF13022034 /* Pods-TKHandle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHandle_Example.debug.xcconfig"; path = "Target Support Files/Pods-TKHandle_Example/Pods-TKHandle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5535109471138F3EE09BB3DE /* libPods-TKHandle_Example.a in Frameworks */,
+				39EAFDDACF0D66CB15282E07 /* Pods_TKHandle_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4B879B4EFCADAF2F232BEA /* libPods-TKHandle_Tests.a in Frameworks */,
+				D21E45901E255C595EE57819 /* Pods_TKHandle_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		CA321C6DF2EDB07C555BFA5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B1960E64AF0698515301157F /* libPods-TKHandle_Example.a */,
-				C7EA73327D36EA4C6471BD48 /* libPods-TKHandle_Tests.a */,
+				A4E4A22E58800BC08981B7AF /* Pods_TKHandle_Example.framework */,
+				7262D4B868298C2504256553 /* Pods_TKHandle_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

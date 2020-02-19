@@ -7,7 +7,12 @@
 
 #import <objc/runtime.h>
 #import "UIViewController+Stat.h"
-#import "TKHandle-Swift.h"
+
+#if __has_include("TKHandle-Swift.h")
+    #import "TKHandle-Swift.h"
+#else
+    #import <TKHandle/TKHandle-Swift.h>
+#endif
 
 @implementation UIViewController (Stat)
 
