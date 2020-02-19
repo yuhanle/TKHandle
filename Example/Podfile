@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TKHandle_Example' do
+  pod 'TKHandle', :path => '../'
+
+  target 'TKHandle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
