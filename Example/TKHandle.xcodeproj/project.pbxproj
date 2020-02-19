@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		2DC79ECB93893AFD1DC79975 /* Pods-TKHandle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHandle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TKHandle_Tests/Pods-TKHandle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		331B3727F0569C357072B251 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		418307B06DFAADF0A91566AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		53DF968F6E15C4AE932AB12A /* TKHandle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKHandle.podspec; path = ../TKHandle.podspec; sourceTree = "<group>"; };
+		331B3727F0569C357072B251 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		418307B06DFAADF0A91566AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		53DF968F6E15C4AE932AB12A /* TKHandle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKHandle.podspec; path = ../TKHandle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* TKHandle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKHandle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				2DC79ECB93893AFD1DC79975 /* Pods-TKHandle_Tests.debug.xcconfig */,
 				A61960D8202ACB3E08B5C195 /* Pods-TKHandle_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

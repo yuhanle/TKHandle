@@ -6,7 +6,12 @@
 //
 
 #import "TKUsage.h"
+#import "TKHandle/TKHandle-Swift.h"
 
 @implementation TKUsage
+
+- (void)usage {
+  [LLSEventTracking enterPage:@"in" category:@"usage" extra:@{}];
+}
 
 @end
