@@ -7,7 +7,7 @@
 
 #import <objc/runtime.h>
 #import "UIViewController+Stat.h"
-#import <TKHandle/TKHandle-Swift.h>
+#import "TKHandle-Swift.h"
 
 @implementation UIViewController (Stat)
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name = "TKHandle"
-  s.version = "0.1.2"
+  s.version = "0.1.3"
   s.summary = "TKHandle for us."
 
   s.description = <<-DESC
@@ -20,6 +20,7 @@ Add long description of the pod here.
   s.author = { "yuhanle" => "thinker.wen@liulishuo.com" }
   s.source = { :git => "https://github.com/yuhanle/TKHandle.git", :tag => s.version.to_s }
   s.swift_version = "5.0"
+  s.static_framework = true
 
   s.ios.deployment_target = "8.0"
 

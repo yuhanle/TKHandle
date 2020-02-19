@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5535109471138F3EE09BB3DE /* libPods-TKHandle_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1960E64AF0698515301157F /* libPods-TKHandle_Example.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		731032FA9FCC5317925A9F8A /* Pods_TKHandle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01AAEF791A9F21E26C51A17 /* Pods_TKHandle_Example.framework */; };
-		78A532B86C909FF04920ACD7 /* Pods_TKHandle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E1DC85DCB5E4152F4FDF7A /* Pods_TKHandle_Tests.framework */; };
+		FA4B879B4EFCADAF2F232BEA /* libPods-TKHandle_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA73327D36EA4C6471BD48 /* libPods-TKHandle_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B3B2AFBF3CF7DA86EF7483E /* Pods-TKHandle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHandle_Example.release.xcconfig"; path = "Target Support Files/Pods-TKHandle_Example/Pods-TKHandle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A61960D8202ACB3E08B5C195 /* Pods-TKHandle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHandle_Tests.release.xcconfig"; path = "Target Support Files/Pods-TKHandle_Tests/Pods-TKHandle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B1960E64AF0698515301157F /* libPods-TKHandle_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKHandle_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EA73327D36EA4C6471BD48 /* libPods-TKHandle_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TKHandle_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD0A0111B76B0BF13022034 /* Pods-TKHandle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHandle_Example.debug.xcconfig"; path = "Target Support Files/Pods-TKHandle_Example/Pods-TKHandle_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F01AAEF791A9F21E26C51A17 /* Pods_TKHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKHandle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4E1DC85DCB5E4152F4FDF7A /* Pods_TKHandle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKHandle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731032FA9FCC5317925A9F8A /* Pods_TKHandle_Example.framework in Frameworks */,
+				5535109471138F3EE09BB3DE /* libPods-TKHandle_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A532B86C909FF04920ACD7 /* Pods_TKHandle_Tests.framework in Frameworks */,
+				FA4B879B4EFCADAF2F232BEA /* libPods-TKHandle_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		CA321C6DF2EDB07C555BFA5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F01AAEF791A9F21E26C51A17 /* Pods_TKHandle_Example.framework */,
-				F4E1DC85DCB5E4152F4FDF7A /* Pods_TKHandle_Tests.framework */,
+				B1960E64AF0698515301157F /* libPods-TKHandle_Example.a */,
+				C7EA73327D36EA4C6471BD48 /* libPods-TKHandle_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				9DD61EE7D08BDDE5B63058C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,24 +303,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DD61EE7D08BDDE5B63058C3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TKHandle_Example/Pods-TKHandle_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TKHandle/TKHandle.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKHandle.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TKHandle_Example/Pods-TKHandle_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

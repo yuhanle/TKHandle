@@ -1,5 +1,5 @@
 PODS:
-  - TKHandle (0.1.1)
+  - TKHandle (0.1.3)
 
 DEPENDENCIES:
   - TKHandle (from `../`)
@@ -9,9 +9,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TKHandle: f81eb37f13642fb65693992eb64d2bd00af45da0
+  TKHandle: c51a35c542b132f8ac88c3331b11ab05479b8df3
 
-PODFILE CHECKSUM: 1c7b26a26c2935a8824e315797b7e5d9855e6014
+PODFILE CHECKSUM: 2ce21c501b1bbcd4e363849d30e9eceac891c3bd
 
 COCOAPODS: 1.8.4
 

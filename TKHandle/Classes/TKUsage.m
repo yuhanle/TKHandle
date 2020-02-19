@@ -6,7 +6,7 @@
 //
 
 #import "TKUsage.h"
-#import <TKHandle/TKHandle-Swift.h>
+#import "TKHandle-Swift.h"
 
 @implementation TKUsage
 

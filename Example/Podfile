@@ -1,11 +1,9 @@
-use_frameworks!
+use_modular_headers!
 
-target 'TKHandle_Example' do
-  pod 'TKHandle', :path => '../'
+target "TKHandle_Example" do
+  pod "TKHandle", :path => "../"
 
-  target 'TKHandle_Tests' do
+  target "TKHandle_Tests" do
     inherit! :search_paths
-
-    
   end
 end
